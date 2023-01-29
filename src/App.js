@@ -1,5 +1,5 @@
 import './App.css';
-import Slides from './Slides';
+import Slides from './slides';
 import List from './list';
 
 function App() {
