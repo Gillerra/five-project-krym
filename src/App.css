@@ -1,38 +1,76 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: #F8F4EA;
   }
-}
+  
+  h1, h2 {
+    margin-top: 15px;
+    letter-spacing: 1px;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'Sofia Sans', sans-serif;
+    -webkit-text-stroke: 1px #0A2647;
+  -webkit-text-fill-color: #579BB1;
+  }
+  
+  h3 {
+    margin-top: 25px;
+    font-size: 25px;
+    letter-spacing: 2px;
+    color: #0A2647;
+    -webkit-text-stroke: 1px #579BB1;
+    font-family: 'Lobster', cursive;
+  }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  p {
+    font-family: 'Sofia Sans', sans-serif;
+    font-size: 22px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #0A2647;
+  }
+  
+  .btn { 
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid transparent;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #F8F4EA;
+    background-color: #579BB1;
+    align-self: center;
+    padding: 9px;
+    font-family: 'Sofia Sans', sans-serif;
+    border-radius: 7px;
+    box-shadow: 2px 2px 2px 2px #E1D7C6;
+    }
+
+
+  .btn:hover {
+    background-color: #418399;
+    }
+
+.btnTwo { 
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-evenly;
 }
 
-.App-link {
-  color: #61dafb;
+.delete {
+    margin: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  button {
+    background: white;
+    border: none;
+    font-size: 18px;
+    color: #579BB1;
+    background-color: #F8F4EA;
+    font-family: 'Sofia Sans', sans-serif;
   }
-  to {
-    transform: rotate(360deg);
+  
+  img {
+    border-radius: 7px;
+    box-shadow: 2px 3px 4px 3px #E1D7C6;
   }
-}
